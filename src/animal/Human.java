@@ -1,7 +1,7 @@
 package animal;
 
 class Human  extends Animal implements Thinkable{
-    String hobby ;
+    private String hobby ;
 
     protected Human (String name,int age,String hobby) {
 
